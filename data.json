@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "question": "پایتخت فرانسه چیست؟",
+      "option1": "پاریس",
+      "option2": "لندن",
+      "option3": "مادرید",
+      "option4": "رم",
+      "answer": 1,
+      "image": "https://media.timeout.com/images/106181719/image.jpg"
+
+    },
+    {
+      "question": "کدام یک عنصر شیمیایی است؟",
+      "option1": "هلیوم",
+      "option2": "آب",
+      "option3": "نمک",
+      "option4": "کربنات سدیم",
+      "answer": 1,
+      "image": "https://www.heliumland.com/wp-content/uploads/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF-%DA%AF%D8%A7%D8%B2-%D9%87%D9%84%DB%8C%D9%88%D9%85-%DA%86%DB%8C%D8%B3%D8%AA-%D9%88-%D9%85%D8%B5%D8%A7%D8%B1%D9%81-%D8%A2%D9%86-2.jpg"
+    },
+    {
+      "question": "اولین رئیس‌جمهور ایالات متحده که بود؟",
+      "option1": "آبراهام لینکلن",
+      "option2": "جورج واشنگتن",
+      "option3": "توماس جفرسون",
+      "option4": "جان اف کندی",
+      "answer": 2,
+      "image": "https://assets.editorial.aetnd.com/uploads/2009/10/washington-gettyimages-640483581.jpg"
+    },
+    {
+      "question": "عدد پی تقریباً چقدر است؟",
+      "option1": "3.14",
+      "option2": "1.41",
+      "option3": "2.72",
+      "option4": "1.62",
+      "answer": 1,
+      "image": "https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150313105721-pi-day-graphic.jpg"
+    },
+    {
+      "question": "کدام کشور بیشترین جمعیت را دارد؟",
+      "option1": "آمریکا",
+      "option2": "هند",
+      "option3": "چین",
+      "option4": "برزیل",
+      "answer": 3
+    },
+    {
+      "question": "بزرگترین سیاره منظومه شمسی چیست؟",
+      "option1": "زمین",
+      "option2": "مریخ",
+      "option3": "زحل",
+      "option4": "مشتری",
+      "answer": 4,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjXawVGc_q3POZUmS06R3UXcFRimN2TPPhcQ&s"
+    },
+    {
+      "question": "کدام یک حیوانی دریایی است؟",
+      "option1": "نهنگ",
+      "option2": "گربه",
+      "option3": "عقاب",
+      "option4": "فیل",
+      "answer": 1,
+      "video": "https://as2.cdn.asset.aparat.com/aparat-video/64680e6405f19e63b147d7c05b00b7a318688384-360p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjE4MjMwMzNjN2FmYTg3ZTYxYzY5MTUyOTJjNDRlNTQ2IiwiZXhwIjoxNzMwMDMzNjIyLCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.pozMhvtq7vOkjz4WqjeV-k21p3luFfLBpP3vfGR249c"
+    },
+    {
+      "question": "رنگ مکمل قرمز چیست؟",
+      "option1": "زرد",
+      "option2": "سبز",
+      "option3": "آبی",
+      "option4": "بنفش",
+      "answer": 2
+    },
+    {
+      "question": "مترادف 'کتاب' چیست؟",
+      "option1": "دفتر",
+      "option2": "جزوه",
+      "option3": "نوشته",
+      "option4": "کتابچه",
+      "answer": 4
+    },
+    {
+      "question": "چه کسی 'سعدی' را در ادب فارسی می‌شناسیم؟",
+      "option1": "نویسنده",
+      "option2": "شاعر",
+      "option3": "نقاش",
+      "option4": "فیلسوف",
+      "answer": 2
+    },
+    {
+      "question": "اینترنت چیست؟",
+      "option1": "شبکه جهانی اطلاعات",
+      "option2": "برنامه کامپیوتری",
+      "option3": "زبان برنامه‌نویسی",
+      "option4": "بازی ویدئویی",
+      "answer": 1
+    },
+    {
+      "question": "کدام یک اولین وسیله پرنده بود؟",
+      "option1": "بالن",
+      "option2": "هواپیما",
+      "option3": "فضاپیما",
+      "option4": "هلی‌کوپتر",
+      "answer": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4qkoe55s9byxVe70Ujrdf08kMcsbRSecXvw&s"
+    },
+    {
+      "question": "فیثاغورث چه کشف کرد؟",
+      "option1": "قانون جاذبه",
+      "option2": "تئوری اعداد اول",
+      "option3": "قضیه فیثاغورث",
+      "option4": "معادله درجه دوم",
+      "answer": 3,
+      "video": "https://aspb33.cdn.asset.aparat.com/aparat-video/bda3907c7ef2cf6f88ffc551bd57560536458281-360p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjQzODY2MzM1NDg4MmNkN2M3OWU0NmNkM2I5ODBiZjU1IiwiZXhwIjoxNzMwMDM3NDM5LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.1kIknKjTEWmgqY0a_EIImJIVgCNfvUpx0kc4GeqNpuQ"
+    },
+    {
+      "question": "سریع‌ترین حیوان خشکی چیست؟",
+      "option1": "یوزپلنگ",
+      "option2": "آهو",
+      "option3": "فیل",
+      "option4": "کرگدن",
+      "answer": 1
+    },
+    {
+      "question": "واژه 'اسکولاستیک' به چه معناست؟",
+      "option1": "علم‌گرا",
+      "option2": "فیلوسفیک",
+      "option3": "مدرسه‌ای",
+      "option4": "دینی",
+      "answer": 3
+    },
+    {
+      "question": "مولوی در چه قرنی زندگی می‌کرد؟",
+      "option1": "قرن پنجم",
+      "option2": "قرن ششم",
+      "option3": "قرن هفتم",
+      "option4": "قرن هشتم",
+      "answer": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfl3PBacEIySPeu04bNnSuM6N2i8VXYaQN0A&s"
+    },
+    {
+      "question": "هفت هنر شامل کدام نیست؟",
+      "option1": "موسیقی",
+      "option2": " نقاشی",
+      "option3": "فیزیک ",
+      "option4": "تئاتر",
+      "answer": 3
+    },
+    {
+      "question": "اولین انسانی که به فضا رفت که بود؟",
+      "option1": "نیل آرمسترانگ",
+      "option2": "یوری گاگارین ",
+      "option3": "آلان شپرد ",
+      "option4": "جان گلن",
+      "answer": 2
+    },
+    {
+      "question": "عنصر اصلی تشکیل‌دهنده خورشید چیست؟",
+      "option1": "هیدروژن",
+      "option2": " اکسیژن",
+      "option3": "نیتروژن ",
+      "option4": "کربن",
+      "answer": 1
+    },
+    {
+      "question": "رمان 'جنایت و مکافات' اثر کیست؟",
+      "option1": "داستایوفسکی",
+      "option2": "تولستوی ",
+      "option3": "چخوف ",
+      "option4": "گورکی",
+      "answer": 1
+    }
+  ]
+}
