@@ -46,8 +46,8 @@ box-sizing: border-box;
 
 width: 1519px;
 height: 580px;
-left: 176px;
-top: 399px;
+position: absolute;
+top: 222px;
 
 background: radial-gradient(73.79% 73.79% at 50.03% 26.21%, #35439E 0%, #232432 100%);
 border: 2px solid #4A4B55;
@@ -65,8 +65,9 @@ border-radius: 29px;
 }
 .questionGif img{
     height: 200px;
-    position: relative;
-    top: -30px;
+    position: absolute;
+    left: 675px;
+    top: -35px;
 }
 .questionGif{
     text-align: left;
@@ -79,6 +80,12 @@ border-radius: 29px;
     margin-top: 25px;
     margin-right: 150px;
 }
+.correctSign{
+    width: 60px;
+    position: absolute;
+    right: 965px;
+    top: 24px;
+}
 .wrongAnswer{
     color: white;
     text-align: right;
@@ -90,7 +97,9 @@ border-radius: 29px;
     font-size: 30px;
     margin-top: 30px;
     text-align: center;
-
+    position: absolute;
+    right: 60px;
+    width: 700px;
 }
 
 .image{
@@ -100,6 +109,9 @@ border-radius: 29px;
 }
 .mainAnswer{
 text-align: center;
+position: absolute;
+right: 760px;
+top: 20px;
 }
 
 .answer-button{
@@ -108,7 +120,7 @@ text-align: center;
     border: 1px solid #682FFD;
     border-radius: 29px;
     color: white;
-    width: 80%;
+    width: 450px;
     height: 100px;
     margin-top: 30px;
     font-family: iransans;
@@ -116,19 +128,31 @@ text-align: center;
 }
 
 .wrongSign{
-    width: 35%;
+    width: 60px;
+    position: absolute;
+    right: 960px;
+    top: 90px;
     padding-left: 0px;
 }
 .myVideo{
     margin-right: 20px;
 }
-
+.numOfCorrectAnswer{
+    position: absolute;
+    right: 1066px;
+    top: 48px;
+}
+.numOfWrongAnswer{
+    position: absolute;
+    right: 1066px;
+    top: 110px;
+}
 .myPopup img{
     height: 796px;
     border-radius: 25px;
     position: absolute;
     top: -10px;
-    right: 310px;
+    right: 326px;
     opacity: 1;
 }
 .endGif img{
@@ -141,7 +165,7 @@ text-align: center;
     color: black;
     font-size: 40px;
     position: absolute;
-    right: 860px;
+    right: 868px;
     top: 545px;
     z-index: 1;
     font-family: iransans;
@@ -150,13 +174,90 @@ text-align: center;
     color: black;
     font-size: 40px;
     position: absolute;
-    right: 845px;
+    right: 864px;
     top: 660px;
     z-index: 1;
     font-family: iransans;
 
 }
 .backgroundofpopup{
+    background-color: black;
+    height: 1239px;
+    width: 1920px;
+    z-index: 0;
+    text-align: center;
+    position: absolute;
+    top: -198px;
+    left: -170px;
+    opacity: 0.7;
+}
+
+ #loadingGif{
+    position: absolute;
+    top: 300px;
+    left: 685px;
+ }
+
+ @font-face {
+    font-family: Iransans;
+    src: url("./font/irsans.ttf");
+  }
+  @font-face {
+    font-family: Iransansbold;
+    src: url("./font/irsansb.ttf");
+  }
+.imageContainer{
+max-width: 40px;
+max-height: 40px;
+text-align: right;
+}
+
+.box {
+    width: 100%;
+    height: 80px;
+    display:flex;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 2px lightgray;
+    text-align: right;
+    margin-top: 20px;
+    z-index: 12;
+   
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 179px;
+    z-index: 20;
+}
+.username{
+    text-align: center;
+    font-family: Iransans;
+ 
+
+}
+.score{
+    text-align: left;
+    font-family: Iransans;
+    float: left;
+}
+#correctAnswers{
+    position: absolute;
+    right: 1286px;
+    top: 50px;
+}
+#wrongAnswer{
+    position: absolute;
+    right: 1288px;
+    top: 110px;
+}
+#imagepopup{
+    position: absolute;
+    top: -10px;
+    right: 326px;
+}
+.backgroundimagepopup{
     background-color: black;
     height: 1239px;
     width: 1920px;

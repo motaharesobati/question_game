@@ -1,58 +1,52 @@
 <!DOCTYPE html>
 <html dir="rtl">
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
         <link rel="stylesheet" href="style.css">
         
         <body>
             <h1></h1>
+            
             <div class="timerbox" id="timerbox" >
-                <div class="row">
-                <div class="col-md-3 timer" id="times">۲۰</div>
-                <div class="col-md-3 questionGif"><img src="./unnamed.gif"></div>
-                <div class="col-md-3 correctAnswers">
-                <div class="row" style="align-items: center;">
-                    <img class="col-md-2" src="./mingcute_check-2-fill.png">
-                    <div class="col-md-7">تعداد پاسخ های صحیح:</div>
-                    <div class="col-md-1" id="correctAnswers"></div>
-                </div>
-                <div class="col-md-6 wrongAnswer">
-                    <div class="row" style="flex-wrap: nowrap; align-items: center;">
-                       <img class="wrongSign col-md-1" src="./mdi_cancel-bold.png">
-                            <div class="co-md-8" style="padding-left: 0;">تعداد پاسخ های اشتباه:</div>
-                            <div class="col-md-1" id="wrongAnswer"></div>
-                    </div>
-                </div>
+                    <div class="timer" id="times">۲۰</div>
+                    <div class="questionGif"><img src="./unnamed.gif"></div>
+                    <div class="correctAnswers">
+                    <img class="correctSign" src="./mingcute_check-2-fill.png">
+                    <div class="numOfCorrectAnswer">تعداد پاسخ های صحیح:</div>
+                    <div id="correctAnswers"></div>
+                <div class="wrongAnswer">
+                       <img class="wrongSign " src="./mdi_cancel-bold.png">
+                            <div class="numOfWrongAnswer" style="padding-left: 0;">تعداد پاسخ های اشتباه:</div>
+                            <div  id="wrongAnswer"></div>
                 </div>
                 </div>
             
             <div class="answerbox" id="answer">
-                <div class="row">
-                    <div class="col-md-6">
                         <div class="mainQuestion" id="mainQuestion"></div>
-                        <div id="general">
-                            <video class="myVideo" id="myVideo" controls autoplay style="display: none;">
-                        </div>
+                    <div id="general">
+                        <video class="myVideo" id="myVideo" controls autoplay style="display: none;">
                     </div>
-                    <div class="mainAnswer col-md-6" id="mainAnswer">
-                    <button class="answer-button"  id="option1" onclick="checkAnswer(1)"></button>
-                    <button class="answer-button"  id="option2" onclick="checkAnswer(2)"></button>
-                    <button class="answer-button"  id="option3" onclick="checkAnswer(3)"></button>
-                    <button class="answer-button"  id="option4" onclick="checkAnswer(4)"></button>
+                    <div class="mainAnswer" id="mainAnswer">
+                        <button class="answer-button"  id="option1" onclick="checkAnswer(1)"></button>
+                        <button class="answer-button"  id="option2" onclick="checkAnswer(2)"></button>
+                        <button class="answer-button"  id="option3" onclick="checkAnswer(3)"></button>
+                        <button class="answer-button"  id="option4" onclick="checkAnswer(4)"></button>
                     </div>
-                </div>
-            </div>
-        <div class="backgroundofpopup" id="backgroundofpopup" style="display: none;"></div>
+                    <div id="loadingGif" style="display: none;"><img src="./loading.gif"></div>
 
-            <div class="row" id="myPopup" style="display: none;">
-            <div class="myPopup" style="text-align: center;">
-                <img src="./photo_2024-10-27_13-41-30.jpg">
-            <div id="resultOfCorrect"></div>
-            <div id="resultOfWrong"></div>
             </div>
-            <div class="endGif"><img src="./6aefe4174b028c15db2421b1c44d1618.gif"></div>
-            </div>
+            <div class="backgroundofpopup" id="backgroundofpopup" style="display: none;"></div>
+            <div class="backgroundimagepopup" id="backgroundimagepopup" style="display: none;" ></div>
+            <div id="imagepopup" style="display: none;"><img src="Group 49 (1).png"></div>
+                <div  id="myPopup" style="display: none;">
+                    <div class="myPopup" style="text-align: center;">
+                        <img src="./photo_2024-10-27_13-41-30.jpg">
+                        <div id="resultOfCorrect"></div>
+                    <div id="resultOfWrong"></div>
+                    </div>
+                    
+                    <div class="endGif"><img src="./6aefe4174b028c15db2421b1c44d1618.gif"></div>
+                    </div>
             <script src="./script.js"></script>
         </body>
     </head>
